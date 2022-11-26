@@ -13,12 +13,13 @@ public class MonData : ScriptableObject {
 
   public int hp;
   public int attack;
-  public int defense;
-  public int evasion;
-  public int accuracy;
+  public int defenseMin;
+  public int defenseMax;
+  public int evasion;  // %
+  public int accuracy; // %
   public int speed;
-  public int critical;
-  public int regeneration;
+  public int critical; // %
+  public int regen;
 
   public override string ToString () => name;
 }
