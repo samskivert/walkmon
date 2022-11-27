@@ -3,7 +3,6 @@
 /Packages/
 /UserSettings/
 /Temp/
-/bin/
-/obj/
+/msbuild~/
 /links/UnityCurrent
 /Assembly-CSharp.csproj

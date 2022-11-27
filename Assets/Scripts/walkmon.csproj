@@ -1,8 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
-    <PackageId>walkmon</PackageId>
+    <TargetFramework>net6.0</TargetFramework>
+    <PackageId>Walkmon</PackageId>
     <Version>1.0.0</Version>
     <LangVersion>8.0</LangVersion>
     <Company>Gamer Garage</Company>
@@ -123,9 +123,6 @@
     </Reference>
     <Reference Include="UnityEngine.TerrainPhysicsModule">
       <HintPath>../../links/UnityCurrent/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TextCoreModule">
-      <HintPath>../../links/UnityCurrent/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TextRenderingModule">
       <HintPath>../../links/UnityCurrent/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
@@ -528,12 +525,6 @@
     </Reference>
     <Reference Include="System.Xml.XmlSerializer">
       <HintPath>../../links/UnityCurrent/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlSerializer.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Numerics.Vectors">
-      <HintPath>../../links/UnityCurrent/Unity.app/Contents/NetStandard/Extensions/2.1.0/System.Numerics.Vectors.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
-      <HintPath>../../links/UnityCurrent/Unity.app/Contents/NetStandard/Extensions/2.1.0/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
     </Reference>
     <Reference Include="System.ComponentModel.Composition">
       <HintPath>../../links/UnityCurrent/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll</HintPath>

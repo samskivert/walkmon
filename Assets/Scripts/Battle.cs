@@ -24,6 +24,8 @@ public static class Battle {
     public int targetIndex;
     public ActionType action;
     public int amount;
+
+    public override string ToString () => $"{actorIndex} => {targetIndex} {action} @ {amount}";
   }
 
   private static int[] LeftRight = new [] { 0, 1 };
