@@ -8,31 +8,17 @@ using NUnit.Framework;
 
 using UnityEngine;
 using UnityEngine.TestTools;
+using UnityEditor;
 
 public class BattleTests {
 
   [Test]
   public void TestBattle () {
-    var tino = new MonData {
-      hp = 50,
-      speed = 2,
-      attack = 20,
-      accuracy = 10,
-      critical = 5,
-      defenseMin = 8,
-      defenseMax = 10,
-      evasion = -10,
-    };
-    var stringy = new MonData {
-      hp = 50,
-      speed = 2,
-      attack = 20,
-      accuracy = 7,
-      critical = 5,
-      defenseMin = 7,
-      defenseMax = 10,
-      evasion = -13,
-    };
+    var tino = AssetDatabase.LoadAssetAtPath<MonData>("Assets/Mons/Tino.asset");
+    Assert.That(tino, Is.Not.Null);
+
+    var stringy = AssetDatabase.LoadAssetAtPath<MonData>("Assets/Mons/Stringy.asset");
+    Assert.That(stringy, Is.Not.Null);
 
     var state = new Battle.State {
       leftData = tino,
@@ -43,7 +29,7 @@ public class BattleTests {
 
     var random = new System.Random();
     var actions = Battle.Fight(state, random);
-    foreach (var action in actions) Console.WriteLine(action);
+    foreach (var action in actions) Debug.Log(action);
   }
 }
 }
