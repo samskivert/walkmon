@@ -10,6 +10,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Reference Include="Samskivert.React">
+      <HintPath>../../Library/ScriptAssemblies/Samskivert.React.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine">
       <HintPath>../../links/UnityCurrent/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
