@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1dddbbb4ce7ea42caa6d627f4752f5d3, type: 3}
-  m_Name: Tino
+  m_Name: Tino 2
   m_EditorClassIdentifier: 
   image: {fileID: 21300000, guid: ccb674158449927499b0c2178323acfa, type: 3}
   stage: 1
