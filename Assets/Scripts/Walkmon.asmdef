@@ -1,0 +1,19 @@
+{
+    "name": "Walkmon",
+    "references": [
+        "Unity.TextMeshPro",
+        "Empowered.External",
+        "Empowered.Shared",
+        "Unity.InputSystem",
+        "Samskivert.React"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

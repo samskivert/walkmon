@@ -1,9 +1,8 @@
-Library
-Logs
-Packages
-UserSettings
-Temp
-bin
-obj
-links/UnityCurrent
-Assembly-CSharp.csproj
+/Library/
+/Logs/
+/Packages/
+/UserSettings/
+/Temp/
+/msbuild~/
+/links/UnityCurrent
+/Assembly-CSharp.csproj
